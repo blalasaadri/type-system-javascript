@@ -1,0 +1,3 @@
+tasks:
+- init: npm install --global prettier && npm install
+  command: npm run prettier-watch
