@@ -1,4 +1,4 @@
 image: node:12
 tasks:
-- init: npm install --global prettier && npm install
+- init: npm install
   command: npm run prettier-watch
