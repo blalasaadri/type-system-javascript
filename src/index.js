@@ -1,5 +1,3 @@
-const greet = () => console.log("Hello, World!");
+import greet from './greeter.js'
 
 greet();
-
-module.exports = { greet };

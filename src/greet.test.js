@@ -1,8 +1,8 @@
-const { greet } = require("./index");
+import { greet } from './greeter.js'
 
 jest.spyOn(global.console, "log");
 
-describe("index", () => {
+describe("greeter", () => {
   beforeEach(() => {
     jest.resetAllMocks();
   });
