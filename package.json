@@ -23,7 +23,11 @@
   "homepage": "https://github.com/blalasaadri/type-system-javascript#readme",
   "devDependencies": {
     "jest": "^24.8.0",
+    "jest-esm-transformer": "^1.0.0",
     "onchange": "^6.0.0",
     "prettier": "^1.17.1"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
   }
 }

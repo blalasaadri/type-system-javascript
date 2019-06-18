@@ -1,4 +1,4 @@
-import { greet } from './greeter.js'
+import greet from "./greeter.js";
 
 jest.spyOn(global.console, "log");
 
