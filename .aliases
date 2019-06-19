@@ -1,0 +1,9 @@
+alias la='ls -A'
+alias lh='ls -h'
+alias ll='ls -l'
+alias ls='ls -G --color'
+
+alias build='npm run build'
+alias run='npm start'
+alias run-tests='npm test'
+alias clean='npm run clean'

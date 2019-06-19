@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node --experimental-modules src/index.js",
+    "build": "echo 'Nothing to build :-)'",
+    "clean": "echo 'Nothing to clean :-)'",
     "test": "jest",
     "prettier": "prettier --check **/*.js .*.js",
     "prettify": "prettier --write **/*.js .*.js",
