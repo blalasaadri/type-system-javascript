@@ -1,3 +1,3 @@
-import greet from "./greeter.js";
+import greet from "./greeter.js"
 
-greet();
+greet()

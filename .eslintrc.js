@@ -18,7 +18,8 @@ module.exports = {
   rules: {
     "prettier/prettier": "error",
     strict: ["error", "global"],
-    "no-undef": ["error"]
+    "no-undef": ["error"],
+    "semi": false
   },
   overrides: [
     {

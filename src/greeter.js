@@ -1,3 +1,3 @@
-const greet = () => console.log("Hello, World!");
+const greet = () => console.log("Hello, World!")
 
-export default greet;
+export default greet

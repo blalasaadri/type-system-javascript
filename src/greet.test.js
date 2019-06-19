@@ -1,15 +1,15 @@
-import greet from "./greeter.js";
+import greet from "./greeter.js"
 
-jest.spyOn(global.console, "log");
+jest.spyOn(global.console, "log")
 
 describe("greeter", () => {
   beforeEach(() => {
-    jest.resetAllMocks();
-  });
+    jest.resetAllMocks()
+  })
 
   it("expects a greeting to be called", () => {
-    greet();
+    greet()
 
-    expect(console.log).toHaveBeenCalledWith("Hello, World!");
-  });
-});
+    expect(console.log).toHaveBeenCalledWith("Hello, World!")
+  })
+})
