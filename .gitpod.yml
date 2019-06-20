@@ -2,6 +2,5 @@ image:
   file: .gitpod.dockerfile
 tasks:
 - init: npm install
-- command: npm run watch
 - command: npm run prettier-watch
 - command: node
