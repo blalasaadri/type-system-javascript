@@ -12,7 +12,7 @@
     "prettier": "prettier --check **/*.js .*.js",
     "prettify": "prettier --write **/*.js .*.js",
     "prettier-watch": "onchange '**/*.js' -- prettier --write {{changed}}",
-    "eslint": "eslint src/**/*.js .*.js --ignore-pattern '!.eslintrc.js'"
+    "lint": "eslint src/**/*.js .*.js --ignore-pattern '!.eslintrc.js'"
   },
   "repository": {
     "type": "git",
