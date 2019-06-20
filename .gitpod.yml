@@ -3,4 +3,4 @@ image:
 tasks:
 - init: npm install
 - command: npm run prettier-watch
-- command: node
+- command: echo "Exit with .exit" && node
