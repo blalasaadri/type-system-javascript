@@ -1,6 +1,7 @@
 image:
   file: .gitpod.dockerfile
 tasks:
-- init: npm install
+- init: nvm install v12.4.0 && nvm alias default stable
+- command: npm install
 - command: npm run prettier-watch
 - command: echo "Exit with .exit" && node
