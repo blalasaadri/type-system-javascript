@@ -1,0 +1,10 @@
+# Looking into the JavaScript type system
+Here are some resources that can help you look into the JavaScript type system.
+1. w3schools has a nice little article on the basic [JavaScript Data Types](https://www.w3schools.com/js/js_datatypes.asp) and annother on [JavaScript Type Conversion](https://www.w3schools.com/js/js_type_conversion.asp) which contains the more complex data types.
+2. At least one important data type is not mentioned in either of those articles though: [Symbols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol). Also, maybe [this article](https://javascript.info/symbol) could be useful.
+3. Through Symbols, there are new ways to look at [metaprogramming](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/).
+4. In difference to most programming languages, JavaScript has [truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) and [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) values. This works due to JavaScripts [type conversion](https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion).
+5. Also interesting and related to type conversion: [comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators) (specifically strict vs. non-strict versions).
+6. JavaScript has [prototypical inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain) and, since ES6, [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes). How does this differ from the inheritance we know from other languages?
+7. Related to classes, [Mix-ins](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Mix-ins) are possible.
+8. In [Type System in JavaScript: What It Is and Why It Matters](https://blog.jscrambler.com/type-system-in-javascript-what-it-is-and-why-it-matters/), type checks using [prop-types](https://www.npmjs.com/package/prop-types) is suggested. Could that be introduced here? What are the advantages and disadvantages?
