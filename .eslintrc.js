@@ -19,7 +19,7 @@ module.exports = {
     "prettier/prettier": "error",
     strict: ["error", "global"],
     "no-undef": ["error"],
-    "semi": false
+    semi: false
   },
   overrides: [
     {
@@ -37,4 +37,4 @@ module.exports = {
       }
     }
   ]
-};
+}
